@@ -1,0 +1,109 @@
+{
+  "_args": [
+    [
+      {
+        "name": "nodebb-theme-persona",
+        "raw": "nodebb-theme-persona@^8.0.9",
+        "rawSpec": "^8.0.9",
+        "scope": null,
+        "spec": ">=8.0.9 <9.0.0",
+        "type": "range"
+      },
+      "/Users/graeme/Documents/workspace/prototypr-forum"
+    ]
+  ],
+  "_from": "nodebb-theme-persona@>=8.0.9 <9.0.0",
+  "_id": "nodebb-theme-persona@8.0.10",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/nodebb-theme-persona",
+  "_nodeVersion": "8.9.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/nodebb-theme-persona_8.0.10_1523028115877_0.940704074675"
+  },
+  "_npmUser": {
+    "email": "julian@nodebb.org",
+    "name": "julianlam"
+  },
+  "_npmVersion": "5.6.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "nodebb-theme-persona",
+    "raw": "nodebb-theme-persona@^8.0.9",
+    "rawSpec": "^8.0.9",
+    "scope": null,
+    "spec": ">=8.0.9 <9.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "http://registry.npmjs.org/nodebb-theme-persona/-/nodebb-theme-persona-8.0.10.tgz",
+  "_shasum": "81c20221267ca916160a05d002ec9a195de56426",
+  "_shrinkwrap": null,
+  "_spec": "nodebb-theme-persona@^8.0.9",
+  "_where": "/Users/graeme/Documents/workspace/prototypr-forum",
+  "bugs": {
+    "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"
+  },
+  "contributors": [
+    {
+      "email": "andrew@designcreateplay.com",
+      "name": "Andrew Rodrigues",
+      "url": "https://github.com/psychobunny"
+    },
+    {
+      "email": "julian@designcreateplay.com",
+      "name": "Julian Lam",
+      "url": "https://github.com/julianlam"
+    },
+    {
+      "email": "baris@designcreateplay.com",
+      "name": "Barış Soner Uşaklı",
+      "url": "https://github.com/barisusakli"
+    }
+  ],
+  "dependencies": {
+    "pulling": "^1.1.2",
+    "striptags": "^3.1.1"
+  },
+  "description": "Persona theme for NodeBB",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "fileCount": 232,
+    "integrity": "sha512-rsoWzmsWtWJNUXavnbzGSF2L3psZLuURHG5cB/M+jJnbl3p0njqHfTHLlIcVOlPQlVCY7jEoJyv6e0n5teSCsw==",
+    "shasum": "81c20221267ca916160a05d002ec9a195de56426",
+    "tarball": "https://registry.npmjs.org/nodebb-theme-persona/-/nodebb-theme-persona-8.0.10.tgz",
+    "unpackedSize": 602588
+  },
+  "gitHead": "664b68f8a83c2a7f8c6d9e290565079794dabdb0",
+  "homepage": "https://github.com/psychobunny/nodebb-theme-persona#readme",
+  "keywords": [
+    "nodebb",
+    "theme",
+    "forum",
+    "bootstrap",
+    "responsive"
+  ],
+  "license": "BSD-2-Clause",
+  "main": "theme.less",
+  "maintainers": [
+    {
+      "email": "barisusakli@gmail.com",
+      "name": "baris"
+    }
+  ],
+  "name": "nodebb-theme-persona",
+  "nbbpm": {
+    "compatibility": "^1.8.0"
+  },
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psychobunny/nodebb-theme-persona.git"
+  },
+  "version": "8.0.10"
+}
