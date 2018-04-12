@@ -58,7 +58,9 @@ li[component="categories/category"]{
 a.permalink, a.permalink:active, a.permalink:focus, a.permalink:hover{
     color:#8492A6;
 }
-.page-home ul.categories, .page-home li.category-item, .topic-list li[component="category/topic"],
+.page-home ul.categories, .page-home li.category-item, 
+.page-categories ul.categories, .page-categories li.category-item, 
+.topic-list li[component="category/topic"],
 .topic .posts [component=post]{
     &:extend(.boxShadow-subtle);
     border-radius: 6px;
@@ -96,7 +98,7 @@ a.permalink, a.permalink:active, a.permalink:focus, a.permalink:hover{
 li.category-item{
     margin-top:22px;
 }
-.page-home ul.categories {
+.page-home ul.categories, .page-categories ul.categories {
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -114,10 +116,10 @@ li.category-item{
     width: 100%;
     margin: 22px 0 0 0;
 }
-.page-home ul.categories, ul [component="topic"]{
+.page-home ul.categories,.page-categories ul.categories, ul [component="topic"]{
     padding: 30px;
 }
-.page-home ul.categories{
+.page-home ul.categories, .page-categories ul.categories{
     padding:0 0 0 0;
 }
 
