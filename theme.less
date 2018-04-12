@@ -1,2 +1,197 @@
-@import "./less/bootstrap/bootstrap";
+@import (less) "./less/bootstrap/bootstrap";
 @import "./less/persona";
+@import "./less/marvel";
+
+body{
+    background-color:#F9FAFC;
+}
+a{
+    color:#60beec;
+}
+.categories-title{
+    color:#8492A6;
+}
+li[component="categories/category"]{
+    .description p{
+        font-size: 18px;
+        color:#8492A6;
+    }
+    h2.title a{
+        color:#3C4858;
+        font-weight: 500;
+    }
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:focus, .nav-pills>li.active>a:hover{
+    background-color: #4467a8;
+    border-radius:4px;
+}
+.modal-content, .panel.panel-default{
+    border-radius: 6px;
+}
+.btn.btn-info{
+    border-radius:4px;
+}
+.alert.alert-warning, .alert.alert-info{
+    background-color:#e2f6ff;
+    border-color:#c1e2f3;
+    color:#5374b5;
+    border-radius:4px;
+    &:extend(.lineHeight-m);
+
+}
+.categories .description, .category .description, .subcategory .description,
+.navbar-default .navbar-nav>li>a, .breadcrumb>.active, .breadcrumb .fa{
+    color:#8492A6;
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #3C4858;
+    background-color: #EFF2F7;
+    border-radius: 4px;
+    margin-top: 1px;
+}
+.nav>li>a:focus, .nav>li>a:hover{
+    border-radius:4px;
+}
+.post-content{
+    color:#3C4858;
+}
+a.permalink, a.permalink:active, a.permalink:focus, a.permalink:hover{
+    color:#8492A6;
+}
+.page-home ul.categories, .page-home li.category-item, .topic-list li[component="category/topic"],
+.topic .posts [component=post]{
+    &:extend(.boxShadow-subtle);
+    border-radius: 6px;
+    background-color:#fff;
+}
+.topic .posts [component=post]{
+    hr{
+        display:none;
+    }
+    margin-bottom:20px;
+    padding:20px;
+    .post-bar{
+        margin-top:20px;
+        background-color:#fff;
+        box-shadow: none;
+    }
+}
+.topic .post-bar{
+    &:extend(.boxShadow-subtle);   
+    padding:20px;
+    background-color:#f0faff;
+    hr{
+        display:none;
+    }
+}
+.dropdown-menu, .composer .write, .composer .preview, textarea.write, .preview.well{
+    border-radius:4px!important;
+}
+.composer .resizer .trigger{
+    background-color:#3C4858;
+}
+.taskbar .navbar-nav li.taskbar-composer a, .taskbar .navbar-nav li.taskbar-composer a:active, .taskbar .navbar-nav li.taskbar-composer a:focus, .taskbar .navbar-nav li.taskbar-composer a:hover{
+    background-color:#65bfea;
+}
+li.category-item{
+    margin-top:22px;
+}
+.page-home ul.categories {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.categories>li, .category>ul>li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    min-height: 53px;
+    padding: 15px 15px 15px 15px;
+    border-bottom: 1px solid #EFF2F7;
+    margin: 0;
+}
+.category>ul>li[component="category/topic"] {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    margin: 22px 0 0 0;
+}
+.page-home ul.categories, ul [component="topic"]{
+    padding: 30px;
+}
+.page-home ul.categories{
+    padding:0 0 0 0;
+}
+
+/*buutton marvel override*/
+.btn.btn-primary{
+    &:extend(.button);
+    &:extend(.button--m);
+    &:extend(.button--flat);
+    &:extend(.bg-blue);
+}
+.btn.btn-default{
+    &:extend(.button);
+    &:extend(.button--m);
+    &:extend(.button--flat);
+    &:extend(.bg-white); 
+    &:extend(.bg-marvel--hover);
+    box-shadow: inset 0 0 0 1px #e0e6ed;
+    color: #3c4858;
+}
+.btn.btn-info.dropdown-toggle{
+    &:extend(.button);
+    &:extend(.button--m);
+    &:extend(.button--flat);
+    &:extend(.bg-secondary);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.btn-group.action-bar{
+    .btn.btn-primary{
+        border-radius:4px;
+    }
+}
+.btn-group.pull-right{
+    .composer-discard{
+        border-top-right-radius: 0px;
+        border-bottom-right-radius: 0px;
+    }
+    .composer-submit{
+        border-bottom-left-radius: 0px!important;
+        border-top-left-radius: 0px!important;
+    }
+}
+.form-control#search-text, .form-control[component="groups/members/search"], .form-control.ui-autocomplete-input{
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-button#search-button, .input-group-addon.search-button{
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    background-color: #4064ac;
+    border-color:#4064ac;
+}
+textarea.form-control{
+    border-radius:4px;
+    margin-top:8px;
+}
+.panel-default>.panel-heading {
+    color: #273444;
+    background-color: #EFF2F7;
+    border-color: #EFF2F7;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+.fa.fa-search{
+    color:#fff;
+}
+
+.header .forum-logo{
+    padding:5px;
+}
+.navbar-brand.forum-title{
+    margin-left: -19px!important;
+    margin-top: 2px;
+    color: #333332;
+    font-weight: 100;
+}
