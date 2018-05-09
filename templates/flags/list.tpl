@@ -1,3 +1,5 @@
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
 <div class="row">
 	<div class="col-sm-4 col-md-3">
 		<!-- IMPORT partials/flags/filters.tpl -->
@@ -64,4 +66,6 @@
 			</tbody>
 		</table>
 	</div>
+</div>
+</div>
 </div>

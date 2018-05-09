@@ -1,5 +1,5 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
-
+<div class="container">
 <div class="row register">
 	<div class="{register_window:spansize}">
 		<div class="register-block">
@@ -74,4 +74,5 @@
 		</div>
 	</div>
 	<!-- ENDIF alternate_logins -->
+</div>
 </div>

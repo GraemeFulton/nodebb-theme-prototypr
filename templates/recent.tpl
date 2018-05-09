@@ -4,6 +4,8 @@
 	{{widgets.header.html}}
 	<!-- END widgets.header -->
 </div>
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
 <div class="recent">
 	<div class="btn-toolbar">
 		<div class="pull-left">
@@ -62,4 +64,6 @@
 			<!-- IMPORT partials/paginator.tpl -->
 		<!-- ENDIF config.usePagination -->
 	</div>
+</div>
+</div>
 </div>

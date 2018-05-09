@@ -1,4 +1,6 @@
-<!-- IMPORT partials/breadcrumbs.tpl -->
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
+	<!-- IMPORT partials/breadcrumbs.tpl -->
 <div widget-area="header">
 	<!-- BEGIN widgets.header -->
 	{{widgets.header.html}}
@@ -33,4 +35,6 @@
 			<!-- IMPORT partials/paginator.tpl -->
 		<!-- ENDIF config.usePagination -->
 	</div>
+</div>
+</div>
 </div>

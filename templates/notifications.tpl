@@ -1,4 +1,6 @@
 
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
 <div class="notifications">
 
 	<!-- IMPORT partials/breadcrumbs.tpl -->
@@ -59,6 +61,8 @@
 	<!-- END notifications -->
 	</ul>
 	<!-- IMPORT partials/paginator.tpl -->
+</div>
+</div>
 </div>
 
 

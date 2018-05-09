@@ -3,7 +3,9 @@
 	<!-- BEGIN widgets.header -->
 	{{widgets.header.html}}
 	<!-- END widgets.header -->
-</div>
+</div> 
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
 <div class="row">
 	<div class="category <!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
 		<!-- IMPORT partials/category/subcategory.tpl -->
@@ -54,6 +56,8 @@
 		{{widgets.sidebar.html}}
 		<!-- END widgets.sidebar -->
 	</div>
+</div>
+</div>
 </div>
 <div widget-area="footer">
 	<!-- BEGIN widgets.footer -->

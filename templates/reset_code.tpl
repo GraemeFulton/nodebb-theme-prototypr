@@ -1,6 +1,7 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
-
-<!-- IF valid -->
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
+	<!-- IF valid -->
 <div class="well">
 	<!-- IF displayExpiryNotice -->
 	<div class="alert alert-warning">
@@ -38,5 +39,7 @@
 	<div class="panel-body">
 		<p>[[reset_password:wrong_reset_code.message]]</p>
 	</div>
+</div>
+</div>
 </div>
 <!-- ENDIF valid -->

@@ -1,4 +1,6 @@
 <!-- IF breadcrumbs.length -->
+<div class="bg-white paddingTop-xs paddingBottom-xs">
+	<div class="pageWrap pageWrap--l">
 <ol class="breadcrumb">
 	<!-- BEGIN breadcrumbs -->
 	<li<!-- IF @last --> component="breadcrumb/current"<!-- ENDIF @last --> itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb" <!-- IF @last -->class="active"<!-- ENDIF @last -->>
@@ -14,4 +16,6 @@
 	</li>
 	<!-- END breadcrumbs -->
 </ol>
+</div>
+</div>
 <!-- ENDIF breadcrumbs.length -->

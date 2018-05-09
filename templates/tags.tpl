@@ -1,5 +1,7 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
-<div widget-area="header">
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
+	<div widget-area="header">
 	<!-- BEGIN widgets.header -->
 	{{widgets.header.html}}
 	<!-- END widgets.header -->
@@ -25,4 +27,6 @@
 			<!-- IMPORT partials/tags_list.tpl -->
 		</div>
 	</div>
+</div>
+</div>
 </div>

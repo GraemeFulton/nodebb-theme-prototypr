@@ -1,6 +1,7 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
-
-<div class="search">
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
+	<div class="search">
 	<div class="row">
 		<div class="col-xs-12">
 			<form id="advanced-search">
@@ -208,4 +209,6 @@
 			<!-- IMPORT partials/paginator.tpl -->
 		</div>
 	</div>
+</div>
+</div>
 </div>

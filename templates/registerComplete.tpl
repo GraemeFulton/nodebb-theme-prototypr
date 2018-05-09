@@ -1,6 +1,7 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
-
-<div class="row">
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
+	<div class="row">
 	<div class="col-xs-12 col-sm-8 col-sm-offset-2">
 		<p class="lead text-center">
 			[[register:interstitial.intro]]
@@ -45,3 +46,5 @@
 		</div>
 	</div>
 </form>
+</div>
+</div>
