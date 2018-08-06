@@ -15,7 +15,7 @@
 		<!-- IMPORT partials/breadcrumbs.tpl -->
 	</div>
 
-	<div class="col-lg-4 col-xs-12">
+	<div class="col-lg-4 col-xs-12" style="padding:20px;padding-left:30px;">
 		<div class="panel panel-default">
 			<div class="panel-heading">
 				<h3 class="panel-title">

@@ -11,7 +11,7 @@
             <div>
                 <h1  class="fontSize-xxxl marginBottom-xs">Make and learn together.</h1>
                 <p class="fontSize-l marginBottom-s">Find help and support from a community of product makers.</p>
-                <a href="/login"><button class="button button--l bg-blue c-white">Sign in</button></a>
+                <button class="button button--l bg-blue c-white">Sign in</button>
 
             </div>
             <div class="textAlign-right">

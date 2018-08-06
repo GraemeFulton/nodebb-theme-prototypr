@@ -102,6 +102,9 @@ a:hover, .btn-link:hover, .btn-link:active, .btn-link:focus {
 	-o-transition: background-color 500ms linear;
 	transition: background-color 500ms linear;
 }
+.topic .content{
+	clear:both;
+}
 
 .topic .topic-item.highlight, .category .category-item.highlight {
 	background-color: lighten(@brand-info, 20%);
@@ -247,6 +250,38 @@ a.permalink {
 .disabled a {
 	pointer-events: none;
 }
+
+.page-user{
+	.col-xs-12>h1{
+		margin:15px;
+	}
+}
+/** 💬 CHAT THING**/
+.chat-modal .modal-body{
+	width:100%;
+}
+.chat-modal .chat-content li.chat-message .message-body p{
+	line-height: 1.3rem!important;
+}
+.chat-modal [component="chat/composer"] [component="chat/message/remaining"], .chats-full [component="chat/composer"] [component="chat/message/remaining"] {
+    right: 5.8em!important;
+    margin-bottom: 5px!important;
+}
+.topic-list{
+	.card>p{
+		margin-bottom:5px!important;
+
+	}
+}
+
+/** 💬 CHAT THING**/
+.header .notif-dropdown-link a, .chat-modal .modal-header h4{
+	font-weight: 400!important;
+}
+.modal-header .close {
+    margin-top: -7px;
+}
+
 
 @media (max-width: @screen-sm-max) {
 	.form-control {

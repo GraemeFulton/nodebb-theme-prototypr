@@ -13,7 +13,7 @@
     ]
   ],
   "_from": "nodebb-theme-persona@>=8.0.9 <9.0.0",
-  "_id": "nodebb-theme-persona@8.0.10",
+  "_id": "nodebb-theme-persona@9.0.5",
   "_inCache": true,
   "_installable": true,
   "_location": "/nodebb-theme-persona",
@@ -42,7 +42,7 @@
   "_resolved": "http://registry.npmjs.org/nodebb-theme-persona/-/nodebb-theme-persona-8.0.10.tgz",
   "_shasum": "81c20221267ca916160a05d002ec9a195de56426",
   "_shrinkwrap": null,
-  "_spec": "nodebb-theme-persona@^8.0.9",
+  "_spec": "nodebb-theme-persona@^9.0.5",
   "_where": "/Users/graeme/Documents/workspace/prototypr-forum",
   "bugs": {
     "url": "https://github.com/psychobunny/nodebb-theme-persona/issues"

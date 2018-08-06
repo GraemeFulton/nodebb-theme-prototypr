@@ -59,16 +59,56 @@ li[component="categories/category"]{
 .post-content{
     color:#3C4858;
 }
+.posts-list .posts-list-item .post-body{
+    margin-top:20px;
+    margin-top: 20px;
+    background: #fff;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 25px;
+}
+.content p, .posts .content > ul, .posts .content > ol{
+    line-height: 1.3em;
+}
+.content >ul{
+    line-height: 1.3em;
+}
+.posts-list .posts-list-item .content h2{
+    font-size:18px;
+    margin-top: 10px;
+    margin-bottom:10px;
+}
+.content img{
+    margin-top:8px;
+}
+
 a.permalink, a.permalink:active, a.permalink:focus, a.permalink:hover{
     color:#8492A6;
 }
-.page-home ul.categories, .page-home li.category-item, 
-.page-categories ul.categories, .page-categories li.category-item, 
-.topic-list li[component="category/topic"],
-.topic .posts [component=post]{
+ .page-home li.category-item, 
+ .page-categories li.category-item{
     &:extend(.boxShadow-subtle);
     border-radius: 6px;
     background-color:#fff;
+}
+
+.page-user{
+    .post-body{
+        .topic-title{
+            // font-weight: 100;
+            margin-top:12px;
+            text-decoration: none;
+        }
+    }
+}
+
+.page-home ul.categories, .page-categories ul.categories,
+.topic-list li[component="category/topic"],
+.topic .posts [component=post], .posts-list .posts-list-item .post-body{
+    background-color:#fff;
+    box-shadow: 0 1px 2px 0px rgba(31, 45, 61, 0.15);
+    border-radius:6px;
+
 }
 .topic .posts [component=post]{
     hr{
@@ -107,10 +147,12 @@ li.category-item{
     padding-bottom: 20px;
 }
 .categories>li, .category>ul>li {
-    padding-top: 10px;
-    padding-bottom: 10px;
+    h2.title a{
+        font-size:20px;
+        font-weight: 400;
+    }
     min-height: 53px;
-    padding: 15px 15px 15px 15px;
+    padding: 25px 15px 15px 15px;
     border-bottom: 1px solid #EFF2F7;
     margin: 0;
 }
@@ -200,4 +242,12 @@ textarea.form-control{
     margin-top: 2px;
     color: #333332;
     font-weight: 100;
+}
+
+.categories>li .content .icon, .category>ul>li .content .icon{
+    padding:0px!important;
+    .fa{
+        margin-left: 12px;
+        margin-top: 13px;    
+    }
 }

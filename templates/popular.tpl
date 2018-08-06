@@ -1,11 +1,11 @@
-<div class="bg-snow paddingTop-l paddingBottom-l">
-	<div class="pageWrap pageWrap--l">
-	<!-- IMPORT partials/breadcrumbs.tpl -->
+<!-- IMPORT partials/breadcrumbs.tpl -->
 <div widget-area="header">
 	<!-- BEGIN widgets.header -->
 	{{widgets.header.html}}
 	<!-- END widgets.header -->
 </div>
+<div class="bg-snow paddingTop-l paddingBottom-l">
+	<div class="pageWrap pageWrap--l">
 <div class="popular">
 	<div class="btn-toolbar">
 		<div class="pull-left">
