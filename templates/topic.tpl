@@ -4,8 +4,7 @@
 	{{widgets.header.html}}
 	<!-- END widgets.header -->
 </div>
-<div class="bg-snow paddingTop-l paddingBottom-l">
-	<div class="pageWrap pageWrap--l">
+<div class="bg-snow paddingBottom-l">
 <div class="row">
 	<div class="topic <!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
 
@@ -94,7 +93,6 @@
 	<!-- BEGIN widgets.footer -->
 	{{widgets.footer.html}}
 	<!-- END widgets.footer -->
-</div>
 </div>
 </div>
 

@@ -1,5 +1,5 @@
 
-<div class="bg-snow paddingTop-l paddingBottom-l">
+<div class="bg-snow paddingBottom-l">
 	<div class="pageWrap pageWrap--l">
 <div class="notifications">
 

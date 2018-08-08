@@ -4,8 +4,7 @@
 	{{widgets.header.html}}
 	<!-- END widgets.header -->
 </div>
-<div class="bg-snow paddingTop-l paddingBottom-l">
-	<div class="pageWrap pageWrap--l">
+<div class="prototypr-card padding-m">
 <div class="users">
 	<div class="row">
 		<div class="col-lg-6">
@@ -47,6 +46,5 @@
 	</ul>
 
 	<!-- IMPORT partials/paginator.tpl -->
-</div>
 </div>
 </div>

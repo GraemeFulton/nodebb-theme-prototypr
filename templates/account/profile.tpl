@@ -1,4 +1,4 @@
-<div class="account">
+<div class="account" style="<!-- IF !loggedIn -->margin-top:50px;<!-- ELSE -->background:inherit;<!-- ENDIF loggedIn -->">
 	<!-- IMPORT partials/account/header.tpl -->
 
 	<div class="profile row">

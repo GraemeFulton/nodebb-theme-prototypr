@@ -1,6 +1,5 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
-<div class="bg-snow paddingTop-l paddingBottom-l">
-	<div class="pageWrap pageWrap--l">
+<div class="bg-snow paddingBottom-l">
 	<div class="tag">
 	<div class="btn-toolbar">
 		<div class="pull-left">
@@ -25,6 +24,5 @@
 			<!-- IMPORT partials/paginator.tpl -->
 		<!-- ENDIF config.usePagination -->
 	</div>
-</div>
 </div>
 </div>

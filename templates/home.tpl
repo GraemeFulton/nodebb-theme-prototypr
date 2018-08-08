@@ -22,7 +22,7 @@
 </div>
 <!-- ENDIF !loggedIn -->
 </div>
-<div class="bg-snow paddingTop-l paddingBottom-l">
+<div class="bg-snow paddingTop-s paddingBottom-l">
 	<div class="pageWrap pageWrap--l">
 		<div class="row">
 			<div class="<!-- IF widgets.sidebar.length -->col-lg-9 col-sm-12<!-- ELSE -->col-lg-12<!-- ENDIF widgets.sidebar.length -->">
