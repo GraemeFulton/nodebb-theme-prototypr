@@ -51,5 +51,9 @@
 <!-- ELSE -->
 <div class="alert alert-info">
 	[[modules:chat.no-messages]]
+	<br>
+	<div class="marginTop-s">
+		<a href="/users"> <button class="button button--m bg-blue c-white">Browse members</button></a>
+	</div>
 </div>
 <!-- ENDIF roomId -->

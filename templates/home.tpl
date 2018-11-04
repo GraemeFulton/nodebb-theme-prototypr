@@ -5,12 +5,12 @@
 	<!-- END widgets.header -->
 
 	<!-- IF !loggedIn -->
-<div class="bg-white paddingTop-l paddingBottom-l">
-	<div class="pageWrap pageWrap--l">
+<div class="bg-white paddingTop-xl paddingBottom-l">
+	<div class="pageWrap pageWrap--l paddingBottom-s">
         <div class="grid grid--m grid--2 paddingBottom-m borderRadius-l" style="background:#fff">
             <div>
-                <h1  class="fontSize-xxxl marginBottom-xs">Make and learn together.</h1>
-                <p class="fontSize-l marginBottom-s">Find help and support from a community of product makers.</p>
+                <h1  class="fontSize-xxxl paddingTop-s paddingBottom-xxxs lineHeight-xxxl" style="font-weight:500;">Make and learn together.</h1>
+                <p class="fontSize-xl lineHeight-l c-silver paddingTop-m marginBottom-s">Kickstart your project with the community.</p>
                 <button class="button button--l bg-blue c-white">Sign in</button>
 
             </div>

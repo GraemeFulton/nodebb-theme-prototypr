@@ -4,7 +4,7 @@
 	<li component="category/topic" class="row clearfix category-item {function.generateTopicClass}" <!-- IMPORT partials/data/category.tpl -->>
 		<meta itemprop="name" content="{function.stripTags, title}">
 
-		<div class="col-md-6 col-sm-9 col-xs-10 content">
+		<div class="col-md-6 col-sm-9 col-xs-10 content" style="display:flex;">
 			<div class="avatar pull-left" title="{topics.user.username}">
 				<!-- IF showSelect -->
 				<div class="select" component="topic/select">
@@ -37,46 +37,50 @@
 
 			</div>
 
-			<h2 component="topic/header" class="title">
+			<div component="topic/header" class="title">
 				<i component="topic/pinned" class="fa fa-thumb-tack <!-- IF !topics.pinned -->hide<!-- ENDIF !topics.pinned -->" title="[[topic:pinned]]"></i>
 				<i component="topic/locked" class="fa fa-lock <!-- IF !topics.locked -->hide<!-- ENDIF !topics.locked -->" title="[[topic:locked]]"></i>
 				<i component="topic/moved" class="fa fa-arrow-circle-right <!-- IF !topics.oldCid -->hide<!-- ENDIF !topics.oldCid -->" title="[[topic:moved]]"></i>
 				<!-- BEGIN icons -->@value<!-- END icons -->
 
-				<!-- IF !topics.noAnchor -->
-				<a href="{config.relative_path}/topic/{topics.slug}<!-- IF topics.bookmark -->/{topics.bookmark}<!-- ENDIF topics.bookmark -->" itemprop="url">{topics.title}</a><br />
-				<!-- ELSE -->
-				<span>{topics.title}</span><br />
-				<!-- ENDIF !topics.noAnchor -->
-
-				<!-- IF !template.category -->
-				<small>
-					<a href="{config.relative_path}/category/{topics.category.slug}"><span class="fa-stack fa-lg"><i style="color:{topics.category.bgColor};" class="fa fa-circle fa-stack-2x"></i><i style="color:{topics.category.color};" class="fa {topics.category.icon} fa-stack-1x"></i></span><span style="font-size:16px">{topics.category.name}</span></a> &bull;
-				</small>
-				<!-- ENDIF !template.category -->
-
-				<!-- IF topics.tags.length -->
-				<span class="tag-list hidden-xs">
-					<!-- BEGIN tags -->
-					<a href="{config.relative_path}/tags/{topics.tags.value}"><span class="tag" style="<!-- IF topics.tags.color -->color: {topics.tags.color};<!-- ENDIF topics.tags.color --><!-- IF topics.tags.bgColor -->background-color: {topics.tags.bgColor};<!-- ENDIF topics.tags.bgColor -->">{topics.tags.valueEscaped}</span></a>
-					<!-- END tags -->
-					<small>&bull;</small>
-				</span>
-				<!-- ENDIF topics.tags.length -->
-
-				<small class="hidden-xs"><span class="timeago" title="{topics.timestampISO}"></span> &bull;
-					<a style="font-size:16px;" href="<!-- IF topics.user.userslug -->{config.relative_path}/user/{topics.user.userslug}<!-- ELSE -->#<!-- ENDIF topics.user.userslug -->">
-					{topics.user.username}
-					</a>
-				</small>
-				<small class="visible-xs-inline">
-					<!-- IF topics.teaser.timestamp -->
-					<span class="timeago" title="{topics.teaser.timestampISO}"></span>
+				<div>
+					<!-- IF !topics.noAnchor -->
+					<div class="marginBottom-xs fontSize-xl">
+					<a class="c-slate" href="{config.relative_path}/topic/{topics.slug}<!-- IF topics.bookmark -->/{topics.bookmark}<!-- ENDIF topics.bookmark -->" itemprop="url">{topics.title}</a><br />
+					</div>
 					<!-- ELSE -->
-					<span class="timeago" title="{topics.timestampISO}"></span>
-					<!-- ENDIF topics.teaser.timestamp -->
-				</small>
-			</h2>
+					<span class="c-silver">{topics.title}</span><br />
+					<!-- ENDIF !topics.noAnchor -->
+
+					<!-- IF !template.category -->
+					<small>
+						<a href="{config.relative_path}/category/{topics.category.slug}"><span class="fa-stack fa-lg"><i style="color:{topics.category.bgColor};" class="fa fa-circle fa-stack-2x"></i><i style="color:{topics.category.color};" class="fa {topics.category.icon} fa-stack-1x"></i></span><span class="c-silver" style="font-size:16px">{topics.category.name}</span></a> &bull;
+					</small>
+					<!-- ENDIF !template.category -->
+
+					<!-- IF topics.tags.length -->
+					<span class="tag-list hidden-xs">
+						<!-- BEGIN tags -->
+						<a href="{config.relative_path}/tags/{topics.tags.value}"><span class="tag" style="<!-- IF topics.tags.color -->color: {topics.tags.color};<!-- ENDIF topics.tags.color --><!-- IF topics.tags.bgColor -->background-color: {topics.tags.bgColor};<!-- ENDIF topics.tags.bgColor -->">{topics.tags.valueEscaped}</span></a>
+						<!-- END tags -->
+						<small>&bull;</small>
+					</span>
+					<!-- ENDIF topics.tags.length -->
+
+					<small class="hidden-xs"><span class="timeago c-silver" title="{topics.timestampISO}"></span> &bull;
+						<a class="c-silver" style="font-size:16px;" href="<!-- IF topics.user.userslug -->{config.relative_path}/user/{topics.user.userslug}<!-- ELSE -->#<!-- ENDIF topics.user.userslug -->">
+						{topics.user.username}
+						</a>
+					</small>
+					<small class="visible-xs-inline">
+						<!-- IF topics.teaser.timestamp -->
+						<span class="timeago" title="{topics.teaser.timestampISO}"></span>
+						<!-- ELSE -->
+						<span class="timeago" title="{topics.timestampISO}"></span>
+						<!-- ENDIF topics.teaser.timestamp -->
+					</small>
+				</div>
+			</div>
 		</div>
 
 		<div class="mobile-stat col-xs-2 visible-xs text-right">
