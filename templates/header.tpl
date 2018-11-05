@@ -88,7 +88,7 @@
         <div class="paddingTop-s grid grid--m grid--1 breakPointS-grid--1 breakPointM-grid--2 borderRadius-l display-flex breakPointM-display-block" style="background:#fff;flex-direction:column-reverse;">
             <div class="padding-m">
                 <h1 class="fontSize-xxxl paddingTop-s paddingBottom-xxxs lineHeight-xxxl" style="font-weight:500;">Design and prototype your ideas with the community.</h1>
-                <p class="fontSize-xl lineHeight-l c-silver paddingTopBottom-xs">Kickstart your project, discover new tools, and learn about design.</p>
+                <p class="fontSize-xl lineHeight-l c-silver paddingTopBottom-xs">Bring your ideas to life with a growing community of design makers and thinkers.</p>
                 <a href="/register"> <button class="button button--l bg-blue c-white">Sign in</button></a>
 
             </div>
