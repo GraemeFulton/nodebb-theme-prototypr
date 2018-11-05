@@ -3,16 +3,16 @@
     [
       {
         "name": "nodebb-theme-persona",
-        "raw": "nodebb-theme-persona@^8.0.9",
-        "rawSpec": "^8.0.9",
+        "raw": "nodebb-theme-persona@^9.0.5",
+        "rawSpec": "9.0.5",
         "scope": null,
-        "spec": ">=8.0.9 <9.0.0",
+        "spec": ">=8.0.9 <9.0.5",
         "type": "range"
       },
       "/Users/graeme/Documents/workspace/prototypr-forum"
     ]
   ],
-  "_from": "nodebb-theme-persona@>=8.0.9 <9.0.0",
+  "_from": "nodebb-theme-persona@>=8.0.9 <9.0.5",
   "_id": "nodebb-theme-persona@9.0.5",
   "_inCache": true,
   "_installable": true,
@@ -33,13 +33,13 @@
     "raw": "nodebb-theme-persona@^8.0.9",
     "rawSpec": "^8.0.9",
     "scope": null,
-    "spec": ">=8.0.9 <9.0.0",
+    "spec": ">=8.0.9 <9.0.5",
     "type": "range"
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "http://registry.npmjs.org/nodebb-theme-persona/-/nodebb-theme-persona-8.0.10.tgz",
+  "_resolved": "http://registry.npmjs.org/nodebb-theme-persona/-/nodebb-theme-persona-9.0.5.tgz",
   "_shasum": "81c20221267ca916160a05d002ec9a195de56426",
   "_shrinkwrap": null,
   "_spec": "nodebb-theme-persona@^9.0.5",
@@ -105,5 +105,5 @@
     "type": "git",
     "url": "git+https://github.com/psychobunny/nodebb-theme-persona.git"
   },
-  "version": "8.0.10"
+  "version": "9.0.42"
 }
