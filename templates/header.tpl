@@ -89,8 +89,8 @@
             <div class="padding-m">
                 <h1 class="fontSize-xxxl paddingTop-s paddingBottom-xxxs lineHeight-xxxl" style="font-weight:500;">Design and prototype your ideas with the community.</h1>
                 <p class="fontSize-xl lineHeight-l c-silver paddingTopBottom-xs">Bring your ideas to life with a growing community of design makers and thinkers.</p>
-                <a rel="nofollow noopener noreferrer" target="_top" href="/auth/wordpress"> <button style="margin-right:8px" class="button button--l bg-blue c-white">Sign up</button></a>
-                <a rel="nofollow noopener noreferrer" target="_top" href="/auth/wordpress"> <button class="button button--l bg-secondary c-white">Log in</button></a>
+                <a rel="nofollow noopener noreferrer" target="_top" href="/register"> <button style="margin-right:8px" class="button button--l bg-blue c-white">Sign up</button></a>
+                <a rel="nofollow noopener noreferrer" target="_top" href="/login"> <button class="button button--l bg-secondary c-white">Log in</button></a>
 
             </div>
             <div class="textAlign-right paddingTopBottom-m ">

@@ -9,7 +9,7 @@
 			</div>
 			<form component="register/local" class="form-horizontal" role="form" action="{config.relative_path}/register" method="post">
 				<div class="form-group">
-					<label for="email" class="col-lg-4 control-label">[[register:email_address]]</label>
+					<label for="email" class="col-lg-3 control-label">[[register:email_address]]</label>
 					<div class="col-lg-8">
 						<input class="form-control" type="email" placeholder="[[register:email_address_placeholder]]" name="email" id="email" autocorrect="off" autocapitalize="off" />
 						<span class="register-feedback" id="email-notify"></span>
@@ -17,7 +17,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="username" class="col-lg-4 control-label">[[register:username]]</label>
+					<label for="username" class="col-lg-3 control-label">[[register:username]]</label>
 					<div class="col-lg-8">
 						<input class="form-control" type="text" placeholder="[[register:username_placeholder]]" name="username" id="username" autocorrect="off" autocapitalize="off" autocomplete="off" />
 						<span class="register-feedback" id="username-notify"></span>
@@ -25,7 +25,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="password" class="col-lg-4 control-label">[[register:password]]</label>
+					<label for="password" class="col-lg-3 control-label">[[register:password]]</label>
 					<div class="col-lg-8">
 						<input class="form-control" type="password" placeholder="[[register:password_placeholder]]" name="password" id="password" />
 						<span class="register-feedback" id="password-notify"></span>
@@ -33,7 +33,7 @@
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="password-confirm" class="col-lg-4 control-label">[[register:confirm_password]]</label>
+					<label for="password-confirm" class="col-lg-3 control-label">[[register:confirm_password]]</label>
 					<div class="col-lg-8">
 						<input class="form-control" type="password" placeholder="[[register:confirm_password_placeholder]]" name="password-confirm" id="password-confirm" />
 						<span class="register-feedback" id="password-confirm-notify"></span>
@@ -42,7 +42,7 @@
 
 				<!-- BEGIN regFormEntry -->
 				<div class="form-group">
-					<label for="register-{regFormEntry.styleName}" class="col-lg-4 control-label">{regFormEntry.label}</label>
+					<label for="register-{regFormEntry.styleName}" class="col-lg-3 control-label">{regFormEntry.label}</label>
 					<div id="register-{regFormEntry.styleName}" class="col-lg-8">
 						{{regFormEntry.html}}
 					</div>
@@ -50,7 +50,7 @@
 				<!-- END regFormEntry -->
 
 				<div class="form-group">
-					<div class="col-lg-offset-4 col-lg-8">
+					<div class="col-lg-offset-3 col-lg-8">
 						<button class="btn btn-primary btn-lg btn-block" id="register" type="submit">[[register:register_now_button]]</button>
 					</div>
 				</div>
