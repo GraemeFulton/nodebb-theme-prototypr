@@ -17,12 +17,15 @@
 		<!-- ENDIF isAdminOrGlobalModeratorOrModerator -->
 
 		<!-- IF selectedGroup.length -->
-		<div class="text-center" style="margin-top:8px;">
+		<div class="text-center">
 		<!-- BEGIN selectedGroup -->
 		<!-- IF selectedGroup.slug -->
 			<a href="{config.relative_path}/groups/{selectedGroup.slug}"><small class="label group-label inline-block" style="background-color: {selectedGroup.labelColor};"><!-- IF selectedGroup.icon --><i class="fa {selectedGroup.icon}"></i> <!-- ENDIF selectedGroup.icon -->{selectedGroup.userTitle}</small></a>
 		<!-- ENDIF selectedGroup.slug -->
 		<!-- END selectedGroup -->
+		</div>
+		<br/>
+		<!-- ENDIF selectedGroup.length -->
 
 		<!-- IF aboutme -->
 		<span component="aboutme" class="text-center aboutme">{aboutme}</span>
