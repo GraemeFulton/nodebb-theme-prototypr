@@ -1,8 +1,6 @@
 <!-- IMPORT partials/breadcrumbs.tpl -->
 <div widget-area="header">
-<!-- BEGIN widgets.header -->
-	{{widgets.header.html}}
-	<!-- END widgets.header -->
+
 </div>
 <div class="bg-snow paddingBottom-l">
 <div class="recent">

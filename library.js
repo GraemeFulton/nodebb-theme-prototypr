@@ -1,10 +1,13 @@
 'use strict';
 
 var striptags = require('striptags');
+var topics = module.parent.require('./topics');
+
 var meta = module.parent.require('./meta');
 var user = module.parent.require('./user');
 
 var library = {};
+
 
 library.init = function(params, callback) {
 	var app = params.router;
@@ -116,6 +119,22 @@ library.addUserToTopic = function(data, callback) {
 		callback(null, data);
 	}
 };
+
+library.topicBuild = function(data, callback){
+	topics.getTopicsFromSet('topics:recent', data.req.uid, 0, 5, function(err, recentData) {
+		console.log('paap')
+
+	  if (err) {
+		  console.log(err)
+				return callback(err);
+			}
+
+			data.templateData.loggedInUser = userdata;
+			console.log(userdata)
+			callback(null, data);
+		});
+		
+  };
 
 library.getLinkTags = function (data, callback) {
 	data.links.push({
